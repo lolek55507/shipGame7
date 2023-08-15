@@ -1,7 +1,7 @@
 export class EnemyOne {
     constructor(image, width, height, spriteWidth, spriteHeight, imageCoorX, imageCoorY) {
       this.image = new Image();
-      this.image.src = "./assets/raven.png";
+      this.image.src = "/assets/raven.png";
       this.image.onload = () => {
         this.width = width;
         this.height = height;

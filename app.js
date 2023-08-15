@@ -36,9 +36,6 @@ let characterBulletWidth = 20;
 let imCoorX = canvasWidth - birdWidth + 150;
 
 
-const music = document.getElementById('Music');
-    music.play();
-    music.volume = 0.2;
 
 
 
